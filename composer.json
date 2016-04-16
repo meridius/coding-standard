@@ -1,0 +1,22 @@
+{
+	"name": "meridius/coding-standard",
+	"type": "library",
+	"description": "Meridius Coding Standard for PHP_CodeSniffer uses selected rules from all default, Slevomat, Consistence and Symfony2 coding standards.",
+	"keywords": ["coding standard", "php", "coding", "standard"],
+	"homepage": "https://github.com/meridius/coding-standard",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Martin Lukeš",
+			"homepage": "https://github.com/meridius/coding-standard"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/meridius/coding-standard/issues"
+	},
+	"require": {
+		"slevomat/coding-standard": "^1.0",
+		"consistence/coding-standard": "^0.10.1",
+		"escapestudios/symfony2-coding-standard": "^2.9"
+	}
+}
